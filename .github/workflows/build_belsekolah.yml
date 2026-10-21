@@ -1,3 +1,4 @@
+
 name: Build BelSekolah APK
 
 on:
@@ -7,10 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cek repository
+      - name: Check project files
         run: |
-          echo "Repository BelSekolah siap"
+          echo "Memeriksa proyek BelSekolah"
           ls -la
